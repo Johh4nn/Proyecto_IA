@@ -1,0 +1,16 @@
+# ❌ Ignorar archivos de datasets descargados
+*.zip
+*.csv
+
+# ❌ Ignorar datasets en subcarpetas específicas
+data/raw/
+data/processed/
+
+
+# ❌ Archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+
+
+

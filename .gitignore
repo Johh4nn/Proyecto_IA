@@ -11,6 +11,8 @@ data/processed/
 .DS_Store
 Thumbs.db
 
-
+# ❌ Ignorar archivos de modelos entrenados
+data/model/sentiment_model.pkl
+data/model/vectorizer.pkl
 
 

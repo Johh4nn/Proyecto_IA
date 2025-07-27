@@ -1,11 +1,13 @@
 import multiprocessing
 import os
 
+#ejecuta el archivo api.py
 def run_backend():
     print("[INFO] Iniciando backend Flask...")
     os.system("python data/model/backend/api.py")
     print("[INFO] Backend Flask finalizado.")
 
+# ejecuta el archivo app.py de Gradio
 def run_frontend():
     print("[INFO] Iniciando frontend Gradio...")
     os.system("python frontend/app.py")

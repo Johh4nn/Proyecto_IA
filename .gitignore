@@ -1,0 +1,18 @@
+# ❌ Ignorar archivos de datasets descargados
+*.zip
+*.csv
+
+# ❌ Ignorar datasets en subcarpetas específicas
+data/raw/
+data/processed/
+
+
+# ❌ Archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# ❌ Ignorar archivos de modelos entrenados
+data/model/sentiment_model.pkl
+data/model/vectorizer.pkl
+
+
